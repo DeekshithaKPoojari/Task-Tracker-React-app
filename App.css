@@ -1,0 +1,72 @@
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #0d0c0c;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+div {
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+.task-card {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #020202;
+  border-radius: 4px;
+  background-color: #bb2222;
+}
+
+.task-card.completed {
+  background-color: #095c78;
+  text-decoration: line-through;
+}
+
+.task-card.overdue {
+  background-color: #ce1414;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FF9DDA;
+  color: rgb(6, 6, 6);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #53c92f;
+}
+
+
+body{
+margin-left: 30%;
+padding-left:  30;
+background-color: #743352;
+background-color: #786986;
+}
+.divtasklist{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSPrMsaoJ32huxHudDaZQ9hVmGFy6TO9wDg&s");
+  background-size: cover;
+  background-repeat: repeat;
+}
+#Footer {
+  text-align: center;
+}
